@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maersk.SCM.DeliveryPlanning.API", "Maersk.SCM.DeliveryPlanning.API\Maersk.SCM.DeliveryPlanning.API.csproj", "{567A237D-4637-4B14-A8ED-7FBEF6A0C72A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maersk.SCM.DeliveryPlanning.Application", "Maersk.SCM.DeliveryPlanning.Application\Maersk.SCM.DeliveryPlanning.Application.csproj", "{11D460CC-8F73-464D-9A9F-B5BE43656E3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maersk.SCM.DeliveryPlanning.Domain", "Maersk.SCM.DeliveryPlanning.Domain\Maersk.SCM.DeliveryPlanning.Domain.csproj", "{0C899029-80BB-46BE-A6ED-8498DAF0C9BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maersk.SCM.Framework.Core", "Maersk.SCM.Framework.Core\Maersk.SCM.Framework.Core.csproj", "{39B30935-D6FF-4E07-B8A3-B4E9BE5D0455}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maersk.SCM.DeliveryPlanning.Infrastructure", "Maersk.SCM.DeliveryPlanning.Infrastructure\Maersk.SCM.DeliveryPlanning.Infrastructure.csproj", "{C72786D4-7DAE-48B4-BA64-9DE769188013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maersk.SCM.DeliveryPlanning.DbUp", "Maersk.SCM.DeliveryPlanning.DbUp\Maersk.SCM.DeliveryPlanning.DbUp.csproj", "{2B551212-2865-4A1F-8C1A-48544AF4F180}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{567A237D-4637-4B14-A8ED-7FBEF6A0C72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567A237D-4637-4B14-A8ED-7FBEF6A0C72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567A237D-4637-4B14-A8ED-7FBEF6A0C72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567A237D-4637-4B14-A8ED-7FBEF6A0C72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11D460CC-8F73-464D-9A9F-B5BE43656E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D460CC-8F73-464D-9A9F-B5BE43656E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D460CC-8F73-464D-9A9F-B5BE43656E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D460CC-8F73-464D-9A9F-B5BE43656E3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C899029-80BB-46BE-A6ED-8498DAF0C9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C899029-80BB-46BE-A6ED-8498DAF0C9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C899029-80BB-46BE-A6ED-8498DAF0C9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C899029-80BB-46BE-A6ED-8498DAF0C9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39B30935-D6FF-4E07-B8A3-B4E9BE5D0455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B30935-D6FF-4E07-B8A3-B4E9BE5D0455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B30935-D6FF-4E07-B8A3-B4E9BE5D0455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B30935-D6FF-4E07-B8A3-B4E9BE5D0455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C72786D4-7DAE-48B4-BA64-9DE769188013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72786D4-7DAE-48B4-BA64-9DE769188013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72786D4-7DAE-48B4-BA64-9DE769188013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72786D4-7DAE-48B4-BA64-9DE769188013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B551212-2865-4A1F-8C1A-48544AF4F180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B551212-2865-4A1F-8C1A-48544AF4F180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B551212-2865-4A1F-8C1A-48544AF4F180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B551212-2865-4A1F-8C1A-48544AF4F180}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75D76937-9939-43A4-9F14-4A32A7717D7C}
+	EndGlobalSection
+EndGlobal
